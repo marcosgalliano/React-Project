@@ -1,0 +1,105 @@
+
+
+.header{
+  background-color: rgb(48, 25, 255);
+  box-shadow: 5px 10px #6f6f6f;
+  display: grid;
+  grid-template-areas: 
+  "logo categorias carrito";
+  grid-template-columns: 25% 50% 25%;
+}
+
+.div_logo{
+  grid-area: logo;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.img_logo{
+  height: 100px;
+  width: 200px;
+}
+
+.div_logo h4{
+  align-self: center;
+  color: #ffffff;
+}
+
+.div_categorias{
+  grid-area: categorias;
+}
+
+.div_categorias ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+  transition: 1.5s;
+}
+
+.div_categorias ul li a:hover{
+  font-size: 18px;
+  padding-bottom: 7px;
+}
+
+.div_categorias ul li{
+  margin-top: 36px;
+}
+
+.div_categorias ul{
+  list-style: none;
+}
+
+.ul_categorias{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div_carrito{
+  grid-area: carrito;
+  display: flex;
+  justify-content: center;
+}
+
+.div_carrito ul{
+  list-style: none;
+}
+
+.div_carrito ul li{
+  margin-top: 23px;
+}
+
+/* PRODUCTOS */
+
+.imagen{
+  height: 250px;
+  width: 250px;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.container_producto{
+  margin-top: 50px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+}
+
+.texto h1{
+  margin: 9px;
+}
+
+.texto h3{
+  margin: 9px;
+}
+
+.texto p{
+  margin: 9px;
+}
